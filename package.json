@@ -1,11 +1,7 @@
 {
   "name": "my-okta-reactapp",
   "version": "0.1.0",
-  "private": true,
-  "engines": {
-    "npm": "6.4.1",
-    "node": "8.16.1"
-  },  
+  "private": true,  
   "dependencies": {
     "@okta/okta-react": "^1.4.0",
     "@okta/okta-signin-widget": "^3.7.2",

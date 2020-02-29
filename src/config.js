@@ -6,7 +6,7 @@ export default {
   oidc: {
     clientId: CLIENT_ID,
     issuer: ISSUER,
-    redirectUri: 'http://okta-login.herokuapp.com/implicit/callback',
+    redirectUri: 'https://okta-login.herokuapp.com/implicit/callback',
     scopes: ['openid', 'profile', 'email'],
     pkce: true,
     disableHttpsCheck: OKTA_TESTING_DISABLEHTTPSCHECK,
